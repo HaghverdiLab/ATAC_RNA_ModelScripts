@@ -2,4 +2,4 @@
 Scripts and analysis of Sid's master thesis, "Information content and cross-modality relationship between scATAC-seq and scRNA-seq in stationary and transitory cell states"
 
 
-The model is located under: "/home/sannald/bin/babel_2/
+The model is located under in the BIMSB Max Cluster under: "/home/sannald/bin/babel_2/
