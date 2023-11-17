@@ -1,0 +1,9 @@
+import numpy as np
+import pandas as pd
+import scanpy as sc
+import matplotlib.pyplot as plt
+import scanorama
+
+adata = sc.read_h5ad('/fast/AG_Haghverdi/Siddharth_Annaldasula/projects/atac_rna_enc_mouse/muscle_e14/muscle_e14_unbalanced_integrated_celltypes/atac_rna_test_preds.h5ad')
+with open('/fast/AG_Haghverdi/Siddharth_Annaldasula/projects/atac_rna_enc_mouse/muscle_e14/muscle_e14_unbalanced_integrated_celltypes/atac_rna_test_cells.txt',"w+") as file:
+    file.write("\n".join(list(adata.obs.index)))
